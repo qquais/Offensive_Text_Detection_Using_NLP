@@ -1,0 +1,84 @@
+METRICS SUMMARY REPORT
+==================================================
+
+
+Metrics for toxicity:
+------------------------------
+precision: 0.7676
+recall: 0.5267
+f1_score: 0.6247
+accuracy: 0.9494
+auc: 0.9533
+
+Confusion Matrix:
+TN: 88303, FP: 1240
+FN: 3681, TP: 4096
+
+Metrics for obscene:
+------------------------------
+precision: 0.6962
+recall: 0.4346
+f1_score: 0.5351
+accuracy: 0.9958
+auc: 0.9836
+
+Confusion Matrix:
+TN: 96674, FP: 103
+FN: 307, TP: 236
+
+Metrics for threat:
+------------------------------
+precision: 0.3500
+recall: 0.1267
+f1_score: 0.1860
+accuracy: 0.9975
+auc: 0.9651
+
+Confusion Matrix:
+TN: 97047, FP: 52
+FN: 193, TP: 28
+
+Metrics for insult:
+------------------------------
+precision: 0.7657
+recall: 0.5608
+f1_score: 0.6474
+accuracy: 0.9637
+auc: 0.9663
+
+Confusion Matrix:
+TN: 90553, FP: 991
+FN: 2537, TP: 3239
+
+Metrics for identity_attack:
+------------------------------
+precision: 0.4430
+recall: 0.2038
+f1_score: 0.2792
+accuracy: 0.9926
+auc: 0.9745
+
+Confusion Matrix:
+TN: 96457, FP: 176
+FN: 547, TP: 140
+
+Metrics for sexual_explicit:
+------------------------------
+precision: 0.6000
+recall: 0.2625
+f1_score: 0.3652
+accuracy: 0.9977
+auc: 0.9882
+
+Confusion Matrix:
+TN: 97038, FP: 42
+FN: 177, TP: 63
+
+
+MEAN METRICS ACROSS ALL LABELS
+------------------------------
+Mean precision: 0.6038
+Mean recall: 0.3525
+Mean f1_score: 0.4396
+Mean accuracy: 0.9828
+Mean auc: 0.9718
